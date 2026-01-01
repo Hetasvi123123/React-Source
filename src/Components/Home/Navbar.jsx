@@ -9,10 +9,13 @@ const Navbar = () => {
     <nav className="bg-[#003161] shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold text-white">
-          <Link to="/"><h1>HetaraCode</h1></Link>
-
-        </div>
+           <Link to="/" className="flex items-center">
+          <img
+            src="/assets/img/logo.jpeg"
+            alt="Logo"
+            className="h-6 sm:h-7 md:h-8 lg:h-9 object-contain"
+          />
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-white font-medium">

@@ -14,7 +14,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 md:gap-0">
           {/* Logo / Brand */}
           <div>
-            <h2 className="text-2xl font-bold">HetaraCode</h2>
+            <Link to="/" className="flex items-center">
+              <img
+                src="/assets/img/logo.jpeg"
+                alt="Logo"
+                className="h-6 sm:h-7 md:h-8 lg:h-9 object-contain"
+              />
+            </Link>
             <p className="mt-2 text-gray-300">Building modern web experiences.</p>
           </div>
 

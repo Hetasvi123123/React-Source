@@ -71,6 +71,11 @@ const Navbar = () => {
                 Features
               </Link>
             </li>
+              <li>
+              <Link onClick={() => setIsOpen(false)} to="/contact" className="hover:text-[#86B0BD] font-bold transition-colors duration-300">
+                  Contact Us
+              </Link>
+            </li>
           </ul>
         </div>
       )}
